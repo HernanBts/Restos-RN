@@ -15,7 +15,7 @@ export default function UserGuest() {
             style={styles.viewBody}
         >
             <Image
-                source={require("../../assets/adaptive-icon.png")}
+                source={require("../../assets/favicon.png")}
                 resizeMode="contain"
                 style={styles.image}
             />
@@ -39,7 +39,8 @@ const styles = StyleSheet.create({
     },
     image: {
         height: 300,
-        width: "100",
+        width: "100%",
+        marginTop: 10,
         marginBottom: 10,
     },
     title: {
